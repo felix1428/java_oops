@@ -36,7 +36,7 @@ public class access {
         user2.name = n.nextLine();  // Assigning a new input name to the 'name' variable
         user2.rollno = n.nextInt();  // Taking input for roll number
         user2.show();  // Displaying the name and roll number for the second object
-
+//testing
         // Creating an object of the inner class 'felix' using the outer class object
         felix obj = user.new felix();
         String namee = n.nextLine();  // Taking input for the name to be passed to the inner class method
