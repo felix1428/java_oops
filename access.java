@@ -42,5 +42,6 @@ public class access {
         String namee = n.nextLine();  // Taking input for the name to be passed to the inner class method
         int rollno = n.nextInt();  // Taking input for roll number
         obj.inner(namee, rollno);  // Calling the inner class method and passing the name and roll number
+
     }
 }
